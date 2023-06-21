@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": ["DOM", "ESNext"],
+    "outDir": "./dist",
+    "moduleResolution": "Node",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["utools-api-types", "@types/node"]
+  },
+  "include": ["src/**/*", "vite.config.ts"]
+}

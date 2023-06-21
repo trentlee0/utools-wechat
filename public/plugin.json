@@ -1,0 +1,27 @@
+{
+  "preload": "preload.js",
+  "logo": "logo.png",
+  "platform": [
+    "darwin"
+  ],
+  "features": [
+    {
+      "code": "contacts",
+      "explain": "搜索微信联系人",
+      "cmds": [
+        "WeChat Search",
+        "搜索微信联系人",
+        "wx",
+        {
+          "type": "window",
+          "label": "搜索微信联系人",
+          "match": {
+            "app": [
+              "WeChat.app"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
